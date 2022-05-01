@@ -9,22 +9,50 @@
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="./css/index.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
-    Order Summary
+    <main>
+        <div class="card">
+            <img src="./images/illustration-hero.svg" alt="An illustration of a person wearing earphones">
 
-    You can now listen to millions of songs, audiobooks, and podcasts on any
-    device anywhere you like!
+            <div class="card__body">
+                <div class="card__header">
+                    <h1 class="card__heading">Order Summary</h1>
 
-    Annual Plan
-    $59.99/year
+                    <p>
+                        You can now listen to millions of songs, audiobooks, and podcasts on any
+                        device anywhere you like!
+                    </p>
+                </div>
 
-    Change
+                <div class="card__sub">
+                    <div class="card__sub-plan">
+                        <img src="./images/icon-music.svg" alt="A music symbol icon">
 
-    Proceed to Payment
-    Cancel Order
+                        <div>
+                            <p class="card__sub-duration">Annual Plan</p>
+                            <p>$59.99/year</p>
+                        </div>
+                    </div>
+
+                    <p class="card__sub-change">Change</p>
+                </div>
+
+                <div class="card__checkout">
+                    <button class="btn">Proceed to Payment</button>
+                    <p class="card__checkout-cancel">Cancel Order</p>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>

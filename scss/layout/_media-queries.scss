@@ -1,0 +1,7 @@
+@use '../base/variables'as *;
+
+@media (max-width: 320px) {
+    .card {
+        font-size: rem(14px);
+    }
+}

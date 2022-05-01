@@ -1,0 +1,19 @@
+@use '../base/variables'as *;
+
+.btn {
+    color: $text-accent-white;
+    width: 100%;
+    background-color: $text-accent-bright;
+    border: 0;
+    border-radius: 1em;
+    padding: 1em 2em;
+    margin-bottom: 1.2em;
+    font-weight: $fw-bold;
+    box-shadow: 0 15px 25px rgba(56, 41, 224, 0.3);
+    transition: background-color 0.3s;
+
+    &:hover {
+        cursor: pointer;
+        background-color: $bg-hover;
+    }
+}

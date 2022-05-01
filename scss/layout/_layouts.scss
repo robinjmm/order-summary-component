@@ -1,0 +1,25 @@
+@use '../base/variables'as *;
+
+body {
+    background-color: $bg-light-grey;
+    font-family: $primary-font;
+    width: 100vw;
+    padding: 5vh 0;
+
+    // Allow <main> to stretch the whole height of the <body> without a set height on the body.
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    width: 100%;
+    min-height: 100%;
+
+    // Allow <main> to stretch the whole height of the <body> without a set height on the body.
+    flex-grow: 1;
+
+    // Center the card component on the page.
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

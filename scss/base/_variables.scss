@@ -1,0 +1,30 @@
+// Colors
+$text-color: hsl(224, 23%, 55%);
+$text-accent-dark: hsl(223, 47%, 23%);
+$text-accent-bright: hsl(245, 75%, 52%);
+$text-accent-purple: hsl(225, 100%, 94%);
+$text-accent-white: hsl(225, 100%, 98%);
+
+
+$bg-blue: hsl(245, 75%, 52%);
+$bg-grey: hsl(224, 23%, 55%);
+$bg-light-grey: hsl(225, 100%, 94%);
+$bg-faded-grey: hsl(225, 100%, 98%);
+$bg-hover: rgba(56, 41, 224, 0.6);
+
+// Fonts
+$base-font-size: 16px;
+$primary-font: 'Red Hat Display',
+sans-serif;
+
+// Font weights
+$fw-normal: 500;
+$fw-bold: 700;
+$fw-x-bold: 900;
+
+
+// Functions
+@function rem($value) {
+    $remValue: calc(($value / $base-font-size) *1rem);
+    @return $remValue;
+}
