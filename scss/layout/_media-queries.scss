@@ -5,3 +5,13 @@
         font-size: rem(14px);
     }
 }
+
+@media (min-width: 376px) {
+    .bg-image {
+        background-image: url('../../images/pattern-background-desktop.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+}
