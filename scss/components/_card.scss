@@ -1,6 +1,7 @@
-@use '../base/variables'as *;
+@use '../base/variables' as *;
 
 .card {
+    margin: 0 auto;
     background-color: white;
     width: min(90%, rem(410px));
     border-radius: rem(16px);
