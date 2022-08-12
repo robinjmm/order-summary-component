@@ -1,5 +1,5 @@
 # Order Summary Component
-![](./images/solution-screenshot.png)
+![](assets/images/solution-screenshot.png)
 
 ## Links
 - [Challenge Link](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
